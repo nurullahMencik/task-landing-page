@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Luxury Leather Watch",
+    "description": "A stylish and elegant watch with a genuine leather strap. Perfect for any occasion.",
+    "price": 249.99,
+    "imageUrl": "/saat.png",
+    "category": "watches"
+  },
+  {
+    "id": 2,
+    "name": "Classic Sneakers",
+    "description": "Comfortable and timeless sneakers for everyday wear. Made with high-quality canvas.",
+    "price": 89.99,
+    "imageUrl": "/ayakkabı.png",
+    "category": "shoes"
+  },
+  {
+    "id": 3,
+    "name": "Designer Backpack",
+    "description": "A durable and spacious backpack with multiple compartments. Ideal for students and travelers.",
+    "price": 129.50,
+    "imageUrl": "/sırt_cantasi.png",
+    "category": "bags"
+  },
+  {
+    "id": 4,
+    "name": "Wireless Headphones",
+    "description": "High-fidelity sound and noise-cancelling technology for an immersive audio experience.",
+    "price": 199.00,
+    "imageUrl": "/kulaklık.png",
+    "category": "electronics"
+  }
+]

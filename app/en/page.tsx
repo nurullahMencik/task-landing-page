@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Calvero - Luxury Products and Accessories",
     description: "Discover the latest collection of luxury watches, bags, and shoes. Where quality meets elegance.",
-    url: "https://calvero.club/en", // Gerçek domaini buraya yazın
+    url: "https://calvero.club/en", 
     type: "website",
     images: [
       {
-        url: "/calvero-og-en.jpg", // OG görseli için kendi resminizi public klasörüne koyun
+        url: "/calvero-og-en.jpg", 
         width: 1200,
         height: 630,
         alt: "Calvero landing page image",

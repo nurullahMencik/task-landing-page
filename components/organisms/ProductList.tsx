@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { ProductCard } from "@/components/molecules/ProductCard";
 import { addToFavorites } from "@/lib/store/favoritesSlice";
 
-// Sahte veriyi içe aktaralım
+
 import productsData from "@/data/products.json";
 
 interface Product {
@@ -21,7 +21,7 @@ export function ProductList() {
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
-    // Gerçek bir API'den veri çekme işlemini simüle ediyoruz.
+    
     // Şimdilik mock JSON dosyasını kullanıyoruz.
     setProducts(productsData);
   }, []);

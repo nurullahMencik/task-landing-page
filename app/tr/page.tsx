@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Calvero - Lüks Ürünler ve Aksesuarlar",
     description: "En yeni lüks saatler, çantalar ve ayakkabı koleksiyonunu keşfedin. Kalite ve zarafet bir arada.",
-    url: "https://calvero.club/tr", // Gerçek domaini buraya yazın
+    url: "https://calvero.club/tr", 
     type: "website",
     images: [
       {
-        url: "/calvero-og-tr.jpg", // OG görseli için kendi resminizi public klasörüne koyun
+        url: "/calvero-og-tr.jpg", 
         width: 1200,
         height: 630,
         alt: "Calvero landing page görseli",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Calvero - Lüks Ürünler ve Aksesuarlar",
     description: "En yeni lüks saatler, çantalar ve ayakkabı koleksiyonunu keşfedin. Kalite ve zarafet bir arada.",
-    images: ["/calvero-og-tr.jpg"], // Twitter kart görseli
+    images: ["/calvero-og-tr.jpg"], 
   },
 };
 

@@ -3,7 +3,7 @@ import favoritesReducer from './favoritesSlice';
 
 export const store = configureStore({
   reducer: {
-    favorites: favoritesReducer, // favorites slice'ı buraya ekledik.
+    favorites: favoritesReducer, 
   },
 });
 

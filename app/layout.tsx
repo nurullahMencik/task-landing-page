@@ -7,7 +7,7 @@ import { ThemeToggle } from "@/components/atoms/ThemeToggle";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  // ... metadata ayarları
+
 };
 
 export default function RootLayout({

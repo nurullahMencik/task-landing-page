@@ -38,9 +38,9 @@ export function ProductCard({
         <Image
           src={imageUrl}
           alt={name}
-          fill // Bu özellik sayesinde width ve height vermeye gerek kalmaz
+          fill 
           className="rounded-md object-cover"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Boyut optimizasyonu için
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
           priority
         />
       </CardHeader>

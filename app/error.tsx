@@ -1,4 +1,4 @@
-'use client'; // Bu dosya client bileşeni olmalı
+'use client'; 
 
 import { useEffect } from 'react';
 

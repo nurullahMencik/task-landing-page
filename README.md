@@ -21,6 +21,7 @@ Veri Kaynağı: Mock JSON dosyaları (API yapısı referans alınmıştır)
 
 Mimari ve Proje Dizini
 Proje, okunabilirliği ve sürdürülebilirliği artırmak amacıyla Atomic Design prensiplerine göre yapılandırılmıştır.
+```
 ├── app/                        # Next.js App Router yapısı
 │   ├── tr/page.tsx             # Türkçe ürün sayfası
 │   ├── en/page.tsx             # İngilizce ürün sayfası

@@ -2,7 +2,7 @@ Calvero Landing Page (Frontend Developer Test Case)
 Bu proje, bir Frontend geliştirme test senaryosu kapsamında Next.js 15+ kullanılarak geliştirilmiş, çok dilli bir ürün açılış sayfasıdır.
 
 🚀 Projenin Canlı Adresi
-[[Canlı Linki Buraya Girin]](https://task-landing-page-lac.vercel.app)
+https://task-landing-page-lac.vercel.app
 
 Kullanılan Teknolojiler
 Frontend Framework: Next.js (App Router)

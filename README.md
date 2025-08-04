@@ -1,32 +1,57 @@
 Calvero Landing Page (Frontend Developer Test Case)
 Bu proje, bir Frontend geliştirme test senaryosu kapsamında Next.js 15+ kullanılarak geliştirilmiş, çok dilli bir ürün açılış sayfasıdır.
 
-Canlı Versiyon
-Projenin canlı versiyonuna aşağıdaki adresten ulaşabilirsiniz:
-[Canlı Linki Buraya Girin]
+🚀 Projenin Canlı Adresi
+[[Canlı Linki Buraya Girin]](https://task-landing-page-lac.vercel.app)
 
-Görev Özeti
-Bu proje, modern web uygulaması geliştirme becerilerini sergilemek amacıyla aşağıdaki gereksinimleri karşılamaktadır:
+Kullanılan Teknolojiler
+Frontend Framework: Next.js (App Router)
 
-Teknolojiler: Next.js (App Router), Redux Toolkit, TailwindCSS, shadcn/ui.
+State Management: Redux Toolkit
 
-Performans: SSR/SSG render stratejileri ve next/image optimizasyonları.
+UI Kütüphanesi: Tailwind CSS ve shadcn/ui
 
-Çoklu Dil Desteği: Kullanıcı tarafından seçilebilir Türkçe ve İngilizce dil seçenekleri.
+Animasyon: Framer Motion
 
-State Yönetimi: Redux Toolkit ile global favori ürün yönetimi.
+Dil: TypeScript
 
-SEO: Dinamik meta verileri, OpenGraph/Twitter kartları ve JSON-LD yapısal verileri.
+Kod Kalitesi: ESLint ve Prettier
 
-Kod Kalitesi: TypeScript, ESLint ve Prettier kurallarına uygun, düzenli bir kod yapısı.
+Veri Kaynağı: Mock JSON dosyaları (API yapısı referans alınmıştır)
 
-Ek Özellikler: Koyu mod desteği ve Framer Motion animasyonları.
+Mimari ve Proje Dizini
+Proje, okunabilirliği ve sürdürülebilirliği artırmak amacıyla Atomic Design prensiplerine göre yapılandırılmıştır.
+├── app/                        # Next.js App Router yapısı
+│   ├── tr/page.tsx             # Türkçe ürün sayfası
+│   ├── en/page.tsx             # İngilizce ürün sayfası
+│   ├── layout.tsx              # Uygulamanın ana düzeni
+│   └── page.tsx                # Dil seçme sayfası (root)
+├── components/                 # Uygulama genelinde kullanılan bileşenler
+│   ├── atoms/                  # En küçük bileşenler (buton, toggle vb.)
+│   ├── molecules/              # Atomların birleşimi (ürün kartı)
+│   ├── organisms/              # Moleküllerin birleşimi (ürün listesi)
+│   └── layouts/                # Genel sayfa düzeni bileşenleri
+├── data/                       # Uygulama verilerinin sahte JSON dosyaları
+├── lib/                        # Yardımcı fonksiyonlar ve Redux store
+│   ├── hooks/
+│   │   └── use-theme.ts        # Koyu mod için custom hook
+│   └── store/
+│       ├── favoritesSlice.ts   # Favoriler için Redux slice
+│       └── store.ts            # Redux store konfigürasyonu
+├── public/                     # Statik dosyalar (görseller, sitemap.xml, robots.txt)
+├── package.json
+└── README.md
 
-***
-Geliştirici Bilgileri
+Ekstra Özellikler
+Çoklu Dil Desteği: Sayfanın girişinde kullanıcı tarafından dil seçimi yapılabilir.
+
+Koyu Mod: Temel UI, koyu ve açık mod arasında geçiş yapma özelliğine sahiptir.
+
+Animasyon: Framer Motion kullanılarak sayfa geçişleri ve bileşen girişleri animasyonludur.
+
+SEO Optimizasyonu: Dinamik meta verileri, OpenGraph, Twitter kartları ve JSON-LD yapısal verileri her sayfaya özel olarak eklenmiştir
+
+👤 Geliştirici
 Ad Soyad: Nurullah Mencik
-
-E-posta: nurullahemncik42@gmail.com
-
+e-mail:nurullahmencik42@gmail.com
 GitHub: https://github.com/nurullahMencik
-***
